@@ -1,0 +1,12 @@
+# Local editor settings, credentials, and generated files
+.agents/
+.aws/
+.codex/
+.idea/
+.vscode/
+.env
+.env.*.local
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store

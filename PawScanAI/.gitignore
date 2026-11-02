@@ -1,0 +1,43 @@
+__pycache__/
+*.py[cod]
+api/venv/
+.venv/
+.env
+.env.*.local
+**/node_modules/
+frontend/build/
+
+# Local tools, generated files, and credentials
+.agents/
+.aws/
+.codex/
+.claude/
+.vscode/
+.expo/
+.gradle/
+.idea/
+.ipynb_checkpoints/
+build/
+dist/
+coverage/
+*.log
+*.tsbuildinfo
+.DS_Store
+local.properties
+*.pem
+*.key
+*.keystore
+*.jks
+
+# Downloaded training data and duplicate tutorial checkout
+/training/PlantVillage/
+/training/dataset/
+/gitcode/
+
+# Local publishing artifacts
+/potato-disease-github.tar.gz
+
+# Reproducible downloaded dog model artifacts (see scripts/prepare_dog_model.py)
+/saved_models/.cache/
+/saved_models/dog_breed.keras
+/saved_models/dog_breed.labels.json

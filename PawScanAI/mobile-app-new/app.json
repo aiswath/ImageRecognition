@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "PawScan AI",
+    "slug": "mobile-app-new",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/pawscan-icon.png",
+    "scheme": "mobileappnew",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFBE3B",
+        "foregroundImage": "./assets/images/pawscan-adaptive.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.mobileappnew"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/pawscan-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/pawscan-icon.png",
+          "imageWidth": 180,
+          "resizeMode": "contain",
+          "backgroundColor": "#FFF9EF"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "backgroundColor": "#FFF9EF"
+  }
+}

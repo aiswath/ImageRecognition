@@ -1,0 +1,17 @@
+**
+!Dockerfile
+!.dockerignore
+!.gcloudignore
+!api/
+!api/main.py
+!api/dog_model.py
+!api/requirements.txt
+!scripts/
+!scripts/prepare_dog_model.py
+!frontend/
+!frontend/package.json
+!frontend/package-lock.json
+!frontend/src/
+!frontend/src/**
+!frontend/public/
+!frontend/public/**

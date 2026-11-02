@@ -1,0 +1,16 @@
+{
+  "short_name": "PawScan AI",
+  "name": "PawScan AI",
+  "icons": [
+    {
+      "src": "pawscan-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FFF9EF",
+  "background_color": "#FFF9EF"
+}
